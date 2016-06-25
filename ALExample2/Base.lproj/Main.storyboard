@@ -18,13 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxJ-sJ-0Qh">
-                                <rect key="frame" x="20" y="550" width="254" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxJ-sJ-0Qh">
+                                <rect key="frame" x="20" y="550" width="269" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V06-3t-ZP2">
-                                <rect key="frame" x="534" y="550" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V06-3t-ZP2">
+                                <rect key="frame" x="311" y="550" width="269" height="30"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Button"/>
                             </button>
@@ -32,7 +32,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VxJ-sJ-0Qh" secondAttribute="bottom" constant="20" id="1cn-o4-bio"/>
+                            <constraint firstItem="V06-3t-ZP2" firstAttribute="leading" secondItem="VxJ-sJ-0Qh" secondAttribute="trailing" constant="22" id="3fb-Qv-uno"/>
                             <constraint firstAttribute="leadingMargin" secondItem="VxJ-sJ-0Qh" secondAttribute="leading" id="DXf-yS-vhj"/>
+                            <constraint firstItem="VxJ-sJ-0Qh" firstAttribute="width" secondItem="V06-3t-ZP2" secondAttribute="width" id="ZDs-M8-TiP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V06-3t-ZP2" secondAttribute="bottom" constant="20" id="dsJ-dK-aob"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="V06-3t-ZP2" secondAttribute="trailing" id="kaB-9z-Lkb"/>
                         </constraints>
                     </view>
                 </viewController>
