@@ -1,9 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,34 +19,34 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxJ-sJ-0Qh">
-                                <rect key="frame" x="20" y="550" width="269" height="30"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VxJ-sJ-0Qh" userLabel="Button1">
+                                <rect key="frame" x="16" y="550" width="143" height="30"/>
+                                <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V06-3t-ZP2">
-                                <rect key="frame" x="311" y="550" width="269" height="30"/>
-                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V06-3t-ZP2" userLabel="Button2">
+                                <rect key="frame" x="201" y="550" width="158" height="30"/>
+                                <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VxJ-sJ-0Qh" secondAttribute="bottom" constant="20" id="1cn-o4-bio"/>
-                            <constraint firstItem="V06-3t-ZP2" firstAttribute="leading" secondItem="VxJ-sJ-0Qh" secondAttribute="trailing" constant="22" id="3fb-Qv-uno"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="VxJ-sJ-0Qh" secondAttribute="leading" id="DXf-yS-vhj"/>
-                            <constraint firstItem="VxJ-sJ-0Qh" firstAttribute="width" secondItem="V06-3t-ZP2" secondAttribute="width" id="ZDs-M8-TiP"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V06-3t-ZP2" secondAttribute="bottom" constant="20" id="dsJ-dK-aob"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="V06-3t-ZP2" secondAttribute="trailing" id="kaB-9z-Lkb"/>
+                            <constraint firstItem="V06-3t-ZP2" firstAttribute="leading" secondItem="VxJ-sJ-0Qh" secondAttribute="trailing" constant="42" id="EJ4-O5-Iht"/>
+                            <constraint firstItem="VxJ-sJ-0Qh" firstAttribute="width" secondItem="V06-3t-ZP2" secondAttribute="width" constant="-15" id="MLN-Ls-78F"/>
+                            <constraint firstItem="V06-3t-ZP2" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Ohd-dp-CRZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VxJ-sJ-0Qh" secondAttribute="bottom" constant="87" id="TIT-19-Mu0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="V06-3t-ZP2" secondAttribute="bottom" constant="87" id="jol-tD-2h0"/>
+                            <constraint firstItem="VxJ-sJ-0Qh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="w6f-5Y-Esu"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="440" y="429"/>
+            <point key="canvasLocation" x="439.19999999999999" y="428.63568215892059"/>
         </scene>
     </scenes>
 </document>
